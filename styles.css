@@ -172,6 +172,19 @@ h1 {
     font-size: 0.9688rem;
 }
 
+.path p a {
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+    transition: color 0.2s ease;
+}
+
+.path p a:hover {
+    color: var(--accent);
+}
+
 .now {
     display: inline-block;
     margin-left: 0.45rem;
